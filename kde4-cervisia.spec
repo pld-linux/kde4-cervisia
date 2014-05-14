@@ -9,14 +9,14 @@
 Summary:	A KDE CVS frontend
 Summary(pl.UTF-8):	Frontend do CVS dla KDE
 Name:		kde4-cervisia
-Version:	4.13.0
+Version:	4.13.1
 Release:	1
 License:	GPL
 Group:		X11/Development/Tools
 Requires:	cvs-client >= 1.10
 Requires:	kde4-kdebase >= %{version}
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6d930b4a5a46a98cd8f96ac498484906
+# Source0-md5:	d76dc0ba027e0e0ef219a0cc4dd658fb
 URL:		http://www.kde.org/
 BuildRequires:	QtNetwork-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.88
